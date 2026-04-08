@@ -1,7 +1,5 @@
-const config = {
+export default {
   default: {
     minify: true,
   },
 };
-
-export default config;
