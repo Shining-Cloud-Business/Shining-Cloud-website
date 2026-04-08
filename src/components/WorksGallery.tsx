@@ -15,7 +15,9 @@ export default function WorksGallery({ images }: { images: string[] }) {
        x: Math.random() * 80 - 40,
        y: Math.random() * 60 - 30
     }));
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setOffsets(newOffsets);
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
   }, [images]);
 

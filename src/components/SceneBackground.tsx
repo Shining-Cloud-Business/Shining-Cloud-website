@@ -18,6 +18,7 @@ function Particles() {
       pos[i * 3 + 1] = (Math.random() - 0.5) * 10;
       pos[i * 3 + 2] = (Math.random() - 0.5) * 10;
     }
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setPositions(pos);
   }, []);
 
